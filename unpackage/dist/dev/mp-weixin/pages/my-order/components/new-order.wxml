@@ -1,0 +1,1 @@
+<view class="new-order"><order-card vue-id="99a05c76-1" order="{{orderData}}" bind:__l="__l"></order-card><button data-event-opts="{{[['tap',[['handleClick',['$event']]]]]}}" bindtap="__e">点击我发送订阅信息</button></view>

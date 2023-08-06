@@ -1,0 +1,1 @@
+<view class="contianer"><block wx:for="{{taber}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['click',['$0'],[[['taber','',index,'id']]]]]]]}}" class="{{['item',isOk==item.id?'active':'']}}" bindtap="__e"><view class="{{['iconfont','','_i',item.icon]}}"></view><text class="text">{{item.title}}</text></view></block></view>

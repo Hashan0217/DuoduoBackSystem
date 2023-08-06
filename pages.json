@@ -1,0 +1,109 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "多多点餐饮管理系统"
+			}
+		},
+		{
+			"path": "pages/index/no-content",
+			"style": {
+				"navigationBarTitleText": "多多点餐饮管理系统"
+			}
+		},
+		{
+			"path": "pages/my-order/index",
+			"style": {
+				"navigationBarTitleText": "订单管理",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/shop-info/index",
+			"style": {
+				"navigationBarTitleText": "店铺信息"
+			}
+		},
+		{
+			"path": "pages/shop-info/components/About",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/shop-info/components/AboutInfo",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/shop-info/components/userInfo",
+			"style": {
+				"navigationBarTitleText": "订单管理"
+			}
+		},
+		{
+			"path": "pages/menu-info/index",
+			"style": {
+				"navigationBarTitleText": "商品管理"
+			}
+		},
+
+		{
+			"path": "pages/user/components/add_user",
+			"style": {
+				"navigationBarTitleText": "用户注册"
+			}
+		},
+		{
+			"path": "pages/user/user_login",
+			"style": {
+				"navigationBarTitleText": "用户登录"
+			}
+		},
+
+		{
+			"path": "pages/menu-info/components/add-menu",
+			"style": {
+				"navigationBarTitleText": "修改商品"
+			}
+		},
+		{
+			"path": "pages/statistics/index",
+			"style": {
+				"navigationBarTitleText": "数据统计"
+			}
+		},
+
+		{
+			"path": "pages/taber-info/index",
+			"style": {
+				"navigationBarTitleText": "桌子管理"
+			}
+		}
+
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "多多点餐饮管理系统",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+
+}

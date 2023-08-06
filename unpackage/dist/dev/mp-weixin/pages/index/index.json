@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "多多点餐饮管理系统",
+  "usingComponents": {
+    "u-swiper": "/uni_modules/uview-ui/components/u-swiper/u-swiper"
+  }
+}

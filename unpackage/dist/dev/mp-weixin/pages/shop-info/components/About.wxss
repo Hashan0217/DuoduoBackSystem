@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "iconfont";
+    /* Project id 4086328 */
+    /* Color fonts */
+    src:
+        url('//at.alicdn.com/t/c/font_4086328_kfgos7z78e8.woff2?t=1685012215980') format('woff2'),
+        url('//at.alicdn.com/t/c/font_4086328_kfgos7z78e8.woff?t=1685012215980') format('woff'),
+        url('//at.alicdn.com/t/c/font_4086328_kfgos7z78e8.ttf?t=1685012215980') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-zhuce:before {
+    content: "\e64b";
+}
+
+.icon-youjiantou2:before {
+    content: "\e622";
+}
+
+.icon-youjiantou1:before {
+    content: "\e611";
+}
+
+.icon-guanyuwomen:before {
+    content: "\e6d4";
+}
+
+.icon-wuneirong:before {
+    content: "\e6d0";
+}
+
+.icon-youjiantou:before {
+    content: "\e658";
+}
+
+.icon-zanwuneirong:before {
+    content: "\ec7f";
+}
+
+.icon-touxiang:before {
+    content: "\e618";
+}
+
+.icon-xinfeng:before {
+    content: "\e602";
+}
+
+page {
+    background-color: rgb(245, 247, 250);
+}
+.about-container {
+    margin-top: 10px;
+}
+.about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-info image {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+.info-title {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.info-version {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.about-link {
+    width: 93%;
+    margin-top: 30px;
+    margin-left: 3px;
+}
+.about-other {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    -webkit-transform: translate(-50%, -5%);
+            transform: translate(-50%, -5%);
+}
+.other-icon {
+    font-size: 50px;
+}
+.other-text {
+    font-size: 12px;
+    margin-top: 10px;
+}
+

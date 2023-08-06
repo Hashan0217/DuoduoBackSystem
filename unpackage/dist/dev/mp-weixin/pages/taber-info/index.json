@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "桌子管理",
+  "usingComponents": {
+    "uni-swipe-action": "/uni_modules/uni-swipe-action/components/uni-swipe-action/uni-swipe-action",
+    "uni-swipe-action-item": "/uni_modules/uni-swipe-action/components/uni-swipe-action-item/uni-swipe-action-item",
+    "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
+    "u-loading-icon": "/uni_modules/uview-ui/components/u-loading-icon/u-loading-icon"
+  }
+}

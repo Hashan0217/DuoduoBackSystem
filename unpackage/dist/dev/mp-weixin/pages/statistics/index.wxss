@@ -1,0 +1,119 @@
+.statostics-container.data-v-1961125f {
+  padding: 10px;
+}
+.statostics-container .container-sales.data-v-1961125f {
+  height: 280px;
+  border-radius: 10px;
+  background-color: #f3f4f6;
+  margin-bottom: 15px;
+}
+.statostics-container .container-sales .sales-title.data-v-1961125f {
+  width: 100%;
+  height: 40px;
+}
+.statostics-container .container-sales .annual-sales.data-v-1961125f {
+  padding: 10px;
+  height: 100%;
+  position: relative;
+}
+.statostics-container .container-sales .annual-sales .sales-data-title.data-v-1961125f {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+  color: #82848a;
+}
+.statostics-container .container-user-data.data-v-1961125f {
+  height: 260px;
+  border-radius: 10px;
+  background-color: #f3f4f6;
+  margin-bottom: 15px;
+  position: relative;
+}
+.statostics-container .container-user-data .user-data-title.data-v-1961125f {
+  width: 100%;
+  height: 40px;
+}
+.statostics-container .container-user-data .user-data-card.data-v-1961125f {
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.statostics-container .container-user-data .user-data-card .user-data-item.data-v-1961125f {
+  width: 170px;
+  height: 170px;
+  margin-top: 15px;
+  background-color: #ffff;
+  border: #2979ff solid 5px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.statostics-container .container-user-data .user-data-card .user-data-item .user-data-number.data-v-1961125f {
+  margin-bottom: 10px;
+}
+.statostics-container .container-user-data .user-data-card .user-data-item .user-data-title.data-v-1961125f {
+  font-size: 18px;
+  text-align: center;
+  color: #b3b3b3;
+  position: absolute;
+  bottom: 0;
+}
+.statostics-container .commodity-ranking.data-v-1961125f {
+  min-height: 300px;
+  border-radius: 10px;
+  background-color: #f3f4f6;
+  margin-bottom: 15px;
+}
+.statostics-container .commodity-ranking .commodity-ranking-title.data-v-1961125f {
+  width: 100%;
+  height: 40px;
+}
+.statostics-container .commodity-ranking .commodity-ranking-card.data-v-1961125f {
+  height: 100%;
+  padding: 5px;
+}
+.statostics-container .commodity-ranking .commodity-ranking-card .commodity-ranking-itme.data-v-1961125f {
+  margin: 10px auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #ffff;
+  border-radius: 10px;
+}
+.statostics-container .commodity-ranking .commodity-ranking-card .commodity-ranking-itme image.data-v-1961125f {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.statostics-container .commodity-ranking .commodity-ranking-card .commodity-ranking-itme .commodity-ranking-item-title.data-v-1961125f {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #2979ff;
+  margin-left: 10px;
+}
+.title.data-v-1961125f {
+  color: #ffff;
+  font-size: 20px;
+  font-weight: bolder;
+  width: 130px;
+  height: 40px;
+  background-color: #2979ff;
+  border-radius: 10px 0px 10px 0px;
+  text-align: center;
+  line-height: 40px;
+}
+.isLoding.data-v-1961125f {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  -webkit-transform: -50%, -50%;
+          transform: -50%, -50%;
+}
+

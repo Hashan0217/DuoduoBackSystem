@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/no-content",
+    "pages/my-order/index",
+    "pages/shop-info/index",
+    "pages/shop-info/components/About",
+    "pages/shop-info/components/AboutInfo",
+    "pages/shop-info/components/userInfo",
+    "pages/menu-info/index",
+    "pages/user/components/add_user",
+    "pages/user/user_login",
+    "pages/menu-info/components/add-menu",
+    "pages/statistics/index",
+    "pages/taber-info/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "多多点餐饮管理系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

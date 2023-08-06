@@ -1,0 +1,36 @@
+.user-login-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.container-title {
+  text-align: center;
+  margin: 50px 0px;
+  font-size: 24px;
+  font-weight: bolder;
+  color: #2b85e4;
+}
+.container-info {
+  padding: 10px;
+}
+.container-info button {
+  margin-top: 20px;
+  color: #ffff;
+  background-color: #2b85e4;
+}
+.erro {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  top: 5%;
+  left: 30%;
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+

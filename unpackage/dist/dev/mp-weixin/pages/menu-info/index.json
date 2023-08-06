@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商品管理",
+  "usingComponents": {
+    "page-taber": "/components/pageTaber",
+    "add-class": "/pages/menu-info/components/add-class",
+    "add-menu": "/pages/menu-info/components/add-menu",
+    "menu-appear": "/pages/menu-info/components/menu-appear"
+  }
+}
