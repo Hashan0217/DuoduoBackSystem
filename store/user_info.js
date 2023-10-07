@@ -1,9 +1,7 @@
 import {
 	userLogin,
-	getUserAll,
 	getUserItem,
 	addUser,
-	reviseUser
 } from "@/api/user.js"
 
 export default {

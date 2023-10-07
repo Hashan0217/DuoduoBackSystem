@@ -54,7 +54,9 @@
 		"setting": {
 			"urlCheck": false
 		},
-		"usingComponents": true
+		"requiredBackgroundModes": ["audio"],
+		"usingComponents": true,
+		"lazyCodeLoading": "requiredComponents"
 	},
 	"mp-alipay": {
 		"usingComponents": true

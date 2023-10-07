@@ -20,9 +20,9 @@ const request = (option) => {
 			url: BASE_URL + option.url,
 			method: option.method || 'GET',
 			header: header,
+			timeout: 3000,
 			data: option.data || '',
 			success: res => {
-
 				resolve(res)
 			},
 			fail: err => {

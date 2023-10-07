@@ -1,0 +1,1 @@
+<view class="view-image-container data-v-5b20494a"><block wx:if="{{!iamgeUrl}}"><image src="../static/logo.png" mode class="data-v-5b20494a"></image></block><block wx:else><image src="{{iamgeUrl}}" mode class="data-v-5b20494a"></image></block></view>

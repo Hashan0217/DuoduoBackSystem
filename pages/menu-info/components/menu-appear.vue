@@ -111,9 +111,7 @@
 
 		},
 		watch: {
-			shopingItem: function() {
-				console.log('发生改变了');
-			}
+
 		},
 		methods: {
 			//获取改动后数据

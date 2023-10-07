@@ -18,7 +18,7 @@ export async function addTable(name) {
 //获取全部桌号
 export async function checkTableNumAll() {
 	let checkTableNumberInfo = {
-		url: '/admin/table/select',
+		url: '/admin/table/list',
 		method: 'GET',
 	}
 	return await requset(checkTableNumberInfo)

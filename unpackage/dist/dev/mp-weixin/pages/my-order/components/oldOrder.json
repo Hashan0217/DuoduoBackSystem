@@ -1,6 +1,6 @@
 {
+  "component": true,
   "usingComponents": {
-    "page-taber": "/components/pageTaber"
-  },
-  "component": true
+    "view-image": "/components/viewImag"
+  }
 }

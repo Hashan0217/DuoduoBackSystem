@@ -1,4 +1,4 @@
-export async function getTableUrlCodeViewImage(parameter) {
+export async function getUnlimitedQRCode(parameter) {
 
 	const APPID = 'wx77328d1368398c36';
 	const APPSECRET = '5331e159637c0ac237a099d018a77456';
@@ -10,7 +10,7 @@ export async function getTableUrlCodeViewImage(parameter) {
 	const ACCESS_TOKEN = tokenRes.data.access_token
 	const data = {
 		"page": "pages/index/index",
-		"scene": `id=${parameter}`,
+		"scene": `id=${parameter},shopId='456456489'`,
 		"check_path": true,
 		"env_version": "release"
 	}

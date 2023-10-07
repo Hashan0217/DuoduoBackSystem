@@ -45,6 +45,8 @@ page {
 	text-align: center;
 	margin-top: 10px;
 	color: #2979ff;
+	display: flex;
+	flex-direction: column;
 }
 
 /* 订单菜单 */
@@ -89,15 +91,14 @@ page {
 }
 .info-price {
 	font-size: 16px;
-	margin-left: 10px;
+	margin-right: 10px;
+	text-align: right;
 }
 
 /* 其他信息 */
 .info-other {
 	height: 50px;
 	display: flex;
-	/* flex-direction: column; */
-	justify-content: center;
 	align-items: center;
 	margin-top: 10px;
 	padding-bottom: 10px;
@@ -109,11 +110,15 @@ page {
 	margin-left: 5px;
 	color: #2b85e4;
 }
-.other-btt {
-	width: 120px;
-	background-color: #2b85e4;
-	border-radius: 20px;
-	margin-right: 10px;
+.other-btt-item {
+	width: 70px;
+	border-radius: 5px;
+	/* margin-right: 10px; */
 	color: white;
+}
+.other-btt {
+	width: 60%;
+	display: flex;
+	margin-left: 50px;
 }
 

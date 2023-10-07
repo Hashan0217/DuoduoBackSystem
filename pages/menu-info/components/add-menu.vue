@@ -162,7 +162,7 @@
 				//循环选中列表 请求处理
 				for (let i = 0; i < lists.length; i++) {
 					const result = await this.uploadFilePromise(lists[i].url)
-					this.fileResName = result.data
+					this.fileResName = result.message
 					let item = this[`fileList${event.name}`][fileListLen]
 					this[`fileList${event.name}`].splice(fileListLen, 1, Object.assign(item, {
 						status: 'success',
@@ -204,9 +204,10 @@
 					return
 				}
 				const res = await filiesPreview(this.fileResName)
-				const resData = JSON.parse(res.data)
+				console.log(res, 666);
+				const resData = res.data
 				if (resData.code == 200) {
-					this.filiePreviewUrl = resData.data
+					this.filiePreviewUrl = resData.message
 					return true
 				} else {
 					uni.showToast({
@@ -280,7 +281,7 @@
 						description: this.form.unit,
 						categoryId: this.form.catgoryId,
 						price: this.form.price,
-						image: this.filiePreviewUrl,
+						image: this.fileResName,
 						oldCatgoryId: this.reviseItemOldCatgoryId,
 						flavors: [{
 							name: "",
@@ -314,14 +315,15 @@
 					//添加数据
 					const isOk = this.fromRulesFun()
 					const res = await this.getFiliesPreviewUrl()
+					console.log(res);
 					if (isOk && res) {
 
 						const data = {
 							name: this.form.name,
 							description: this.form.unit,
-							categoryId: this.form.catgoryId,
+							categoryId: this.category[this.form.catgoryIndex].id,
 							price: this.form.price,
-							image: this.filiePreviewUrl,
+							image: this.fileResName,
 							flavors: [{
 								name: "",
 								value: ""

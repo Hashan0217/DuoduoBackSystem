@@ -86,7 +86,7 @@
 
 
 			//获取openId
-			const openId = uni.getStorageSync('OPENID')
+			const openId = uni.getStorageSync('OPENDID')
 			if (!openId) {
 				//用户同意后获取相关信息
 				const isOkRes = await uni.showModal({
@@ -102,8 +102,9 @@
 						method: 'GET',
 						url: `https://api.weixin.qq.com/sns/jscode2session?appid=wx77328d1368398c36&secret=5331e159637c0ac237a099d018a77456&js_code=${CODE}&grant_type=authorization_code `
 					})
+
 					const OPENDID = openIdRes.data.openid
-					uni.setStorageSync('OPENDID', OPENID);
+					uni.setStorageSync('OPENDID', OPENDID);
 				}
 			}
 

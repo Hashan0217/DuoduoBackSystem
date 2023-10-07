@@ -47,7 +47,7 @@
 	} from 'vuex';
 	import helpDispatch from "@/utils/helpDispatch.js"
 	import {
-		getTableUrlCodeViewImage
+		getUnlimitedQRCode
 	} from "@/utils/getTableUrlCodeViewImage.js"
 
 	import tableCodeImageBackgrond from "./tableCodeImage3.png"
@@ -163,7 +163,7 @@
 				try {
 
 					//获取二维码图片
-					const image = await getTableUrlCodeViewImage(this.isSelectedTableItem.name)
+					const image = await getUnlimitedQRCode(this.isSelectedTableItem.name)
 					//获取canvas组件的节点信息
 					const canvasNodeDom = await this.getCanvasDom()
 					const ctx = canvasNodeDom.getContext('2d')

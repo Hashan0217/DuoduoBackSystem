@@ -9,6 +9,10 @@ import {
 	getReviseShopingItem
 } from "@/api/menu.js"
 
+import {
+	filiesPreview
+} from "@/api/fili.js"
+
 export default {
 	namespaced: true,
 
@@ -172,7 +176,6 @@ export default {
 		//添加商品数据
 		async actionsAddShopingItem(ctx, data) {
 			const res = await addShopingItem(data)
-			console.log(typeof(res.data.code));
 			if (res.data.code === 200) {
 				return true
 			} else {
@@ -183,7 +186,13 @@ export default {
 		async actionsGetShopingItem(ctx, data) {
 			const res = await getShopingItem(data)
 			if (res.data.code == 200) {
-				ctx.commit("setShopingItem", res.data.data)
+				//把数据图片加载出来
+				const resData = await imagUrl(res.data.data.records)
+				const dataInfo = {
+					records: resData,
+					total: res.data.data.total
+				}
+				ctx.commit("setShopingItem", dataInfo)
 				return true
 			} else {
 				return false
@@ -238,4 +247,23 @@ export default {
 		},
 
 	},
+}
+
+//图片名称 更换图片地址
+function imagUrl(data) {
+	let arr = []
+	return new Promise((resolve, rejecte) => {
+		data.forEach((item, index) => {
+			filiesPreview(item.image).then((res) => {
+				if (res.data.code == 200) {
+					item.image = res.data.message
+					arr.push(item)
+				}
+				if (arr.length === data.length) {
+					resolve(arr)
+				}
+			})
+
+		})
+	})
 }

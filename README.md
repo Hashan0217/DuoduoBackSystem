@@ -2,11 +2,9 @@
 
 项目名称：多多点餐小程序-后台管理系统
 
-作者：Hashan-哈山
+技术栈：uniapp，Vue2，Vuex，uView2组件库, WebSocket通信协议
 
-技术栈：Vue ， uni-app ，View组件 ，Less
-
-后端： Java 
+作者：Hashan
 
 
 
@@ -18,7 +16,9 @@
 
  ### 																		首页
 
-![image-20230806165245876](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230806165245876.png)
+![image-20230806165245876](README_IMAGE/image-20230806165245876.png)
+
+
 
 ​		
 
@@ -36,15 +36,15 @@
 
 
 
-![image-20230806165543829](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230806165543829.png)
+![image-20230806165543829](README_IMAGE/image-20230806165543829.png)
 
 
 
-![image-20230806165554566](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230806165554566.png)
+![image-20230806165554566](README_IMAGE/image-20230806165554566.png)
 
 
 
-![image-20230806165640432](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230806165640432.png)
+![image-20230806165640432](README_IMAGE/image-20230806165640432.png)
 
 
 
@@ -54,9 +54,7 @@
 
 
 
-![image-20230806165858804](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230806165858804.png)
-
-
+![image-20230806165858804](README_IMAGE/image-20230806165858804.png)
 
 	### 																   桌子管理
 
@@ -66,7 +64,7 @@
 
 ### 																	数据统计
 
-![image-20230806170619572](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230806170619572.png)
+![image-20230806170619572](README_IMAGE/image-20230806170619572.png)
 
 
 
@@ -74,7 +72,7 @@
 
 
 
-![image-20230806170649976](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230806170649976.png)
+![image-20230806170649976](README_IMAGE/image-20230806170649976.png)
 
 
 
